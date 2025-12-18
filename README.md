@@ -4,7 +4,7 @@ Tutorial ini memberikan panduan lengkap bagi kita untuk menyiapkan simulasi dron
 
 ## Persyaratan Sistem
 
-* **Ubuntu 20.04 LTS** (Sangat direkomendasikan menggunakan grafis 3D penuh).
+* **Ubuntu 20.04 LTS**
 * **Gazebo versi 11.x**.
 * **ROS Noetic**.
 * **MAVROS**.
