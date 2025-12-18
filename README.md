@@ -1,6 +1,6 @@
 # Tutorial SITL + ArduPilot + Gazebo + ROS Camera Plugin
 
-Tutorial ini memberikan panduan lengkap bagi kita untuk menyiapkan simulasi drone menggunakan **ArduPilot (ArduCopter)** dan **SITL** dalam lingkungan *virtual* 3D **Gazebo**. Bagian penting dari tutorial ini adalah integrasi *plugin* kamera **ROS** untuk mempublikasikan *image feed* dari simulasi ke dalam ekosistem ROS.
+Tutorial ini memberikan panduan lengkap bagi kita untuk menyiapkan simulasi drone menggunakan **ArduPilot (ArduCopter)** dan **SITL** **(Software in the Loop)** dalam lingkungan *virtual* 3D **Gazebo**. Bagian penting dari tutorial ini adalah integrasi *plugin* kamera **ROS** untuk mempublikasikan *image feed* dari simulasi ke dalam ekosistem ROS.
 
 ## Persyaratan Sistem
 
@@ -56,7 +56,7 @@ sudo apt install ros-noetic-desktop-full
 
 ```
 
-### Inisialisasi Environment
+### Inisialisasi *Environment*
 
 ```bash
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
@@ -64,7 +64,7 @@ source ~/.bashrc
 
 ```
 
-### Instalasi Dependensi Build
+### Instalasi Dependensi *Build*
 
 ```bash
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
@@ -99,7 +99,7 @@ sudo apt-get install python3-catkin-tools
 
 ## 4. Pengaturan ArduPilot SITL
 
-### Klon Repositori ArduPilot
+### *Clone* Repositori ArduPilot
 
 Kita akan mengunduh *source code* ArduPilot:
 
@@ -229,5 +229,3 @@ Di dalam jendela **RQT**, silakan kita pilih menu:
 Kemudian pilih *topic*: `/roscam/cam/image_raw`
 
 ---
-
-Apakah kita ingin saya bantu membuat skrip `.sh` agar seluruh proses di atas bisa dijalankan hanya dengan satu perintah?
